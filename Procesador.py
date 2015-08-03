@@ -3,7 +3,7 @@ __author__ = 'javierortiz'
 from nltk.tokenize import *
 
 from SNoMed import *
-from DgCr.En_onto import enonto
+from En_onto import enonto
 from Imp_Diag import Imp_Diag
 
 
