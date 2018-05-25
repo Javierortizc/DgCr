@@ -1,0 +1,21 @@
+Referencia;Tipo;Caracteristica;Expresion_regular;Direccion
+Sin evidencias;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in evidencias( (evidentes|sugerentes|categoricas|actuales))?( de)?;Adelante
+Sin evidencia;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in evidencia( (evidente|sugerente|categorica|actual))?( de)?;Adelante
+Negativo/a;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?n|N)egativ[oa]( para)?;Adelante
+Sin signos;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in signos( (evidentes|sugerentes|categoricos|actuales))?( de)?;Adelante
+Sin elementos;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in elementos( (evidentes|sugerentes|categoricos|actuales))?( de)?;Adelante
+Sin hallazgos;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in hallazgos( (evidentes|sugerentes|categoricos|actuales))?( de)?;Adelante
+Sin hallazgo de;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in hallazgo( (evidente|sugerente|categorico|actual))?( de)?;Adelante
+Sin imagen;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in imagen( (evidente|sugerente|categorica|actual))?( de)?;Adelante
+Sin hallazgo compatible con;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in hallazgo(s)? compatible(s)?( con)?;Adelante
+Tampoco;Polaridad;NEG;(asi como )?tampoco( se demuestra)?;Adelante
+Ni;Polaridad;NEG;ni (signos de|tampoco( (se demuestra|se observa)))?;Adelante
+No hay;Polaridad;NEG;[Nn]o hay( (evidencia(s)?| signo(s)?) de)?;Adelante
+No se;Polaridad;NEG;[Nn]o se (demostro|(identifica(n)?|observa(n)?)( (signo(s)?|evidencia(s)?) de)?);Adelante
+Actual;Temporalidad;ACTUAL;[Aa]ctual;Bidireccional
+Control de;Temporalidad;ANTIGUO;[Cc]ontrol (satisfactorio )?(de)?;Adelante
+de control;Temporalidad;ANTIGUO;(de|en) control;Atras
+Persiste ;Temporalidad;ACTUAL;[Pp]ersis(te|tiendo);Adelante
+Sin;Barrera;Borde; sin ;Borde
+sin atributos;Polaridad;NEG;((([Aa]ngio(( )?(T(A)?C|t(a)?c))?( (de torax|de aorta( toracoabdominal)?))?|[Ee]studio|[Ee]xamen) )?s|S)in atributos( (evidentes|sugerentes|categoricas|actuales))?( de)?;Adelante
+Que;Barrera;Borde; que ;Borde
